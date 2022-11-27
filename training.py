@@ -5,7 +5,7 @@ import numpy as np
 
 # Function for Creating Train / Validation / Test folders (One time use Only)
  
-def TrainValTestSplit(root_dir, classes_dir, val_ratio = 0.15, test_ratio = 0.15):
+def TrainValTestSplit(root_dir, classes_dir, val_ratio = 0.2, test_ratio = 0.2):
     for cls in classes_dir:
         # Creating Split Folders
         os.makedirs('training/train/' + cls)

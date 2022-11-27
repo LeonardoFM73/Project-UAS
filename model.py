@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 # Fitting the Model
 cnn = test.model.fit(test.train_data, 
                   steps_per_epoch = 2, 
-                  epochs = 32, 
+                  epochs = 50, 
                   validation_data = test.val_data, 
                   validation_steps = 1,
                   callbacks = test.call_back )

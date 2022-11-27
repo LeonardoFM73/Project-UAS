@@ -20,5 +20,7 @@ def cancerPrediction(path):
         print("Non-Cancer")
     
 # Path for the image to get predictions    
-path = "../input/oral-cancer-lips-and-tongue-images/OralCancer/cancer/01960a64-cfe8-444d-bbc5-575c15389a21.jpg"
+path = "./input/OralCancer/cancer/01960a64-cfe8-444d-bbc5-575c15389a21.jpg"
+path1 = "./input/OralCancer/non-cancer/20200314_1130302.jpg"
 cancerPrediction(path)
+cancerPrediction(path1)
